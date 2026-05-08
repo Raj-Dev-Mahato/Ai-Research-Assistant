@@ -5,38 +5,16 @@ The project combines dense retrieval, sparse retrieval, and reranking methods to
 
 
 #Features
-PDF research paper ingestion
-Semantic text chunking
-Hybrid retrieval pipeline
-FAISS dense vector search
-BM25 sparse retrieval
-Reciprocal Rank Fusion (RRF)
-Cross-encoder reranking
-Evidence-based answer generation
-Confidence scoring
-Multiple retrieval modes
-Downloadable JSON results
+PDF research paper ingestion,
+Semantic text chunking,
+Hybrid retrieval pipeline,
+FAISS dense vector search,
+BM25 sparse retrieval,
+Reciprocal Rank Fusion (RRF),
+Cross-encoder reranking,
+Evidence-based answer generation,
+Confidence scoring,
+Multiple retrieval modes,
+Downloadable JSON results,
 Interactive Streamlit interface
 
-
-
-#System Architecture
-PDF Upload
-    ↓
-Text Extraction
-    ↓
-Cleaning & Preprocessing
-    ↓
-Semantic Chunking
-    ↓
-Embedding Generation
-    ↓
-FAISS Retrieval + BM25 Retrieval
-    ↓
-Reciprocal Rank Fusion
-    ↓
-Cross-Encoder Reranking
-    ↓
-Evidence Extraction
-    ↓
-Answer Generation
